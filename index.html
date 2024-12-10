@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second-Hand Smartphone Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Top Banner -->
+    <section class="top-banner">
+        <div class="container">
+            <p>Free Delivery Across Bangladesh for Orders Above ৳5000 | Call: +880 1234 567 890</p>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/150x50?text=Logo" alt="Shop Logo">
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content container">
+            <h1>Your Trusted Source for Pre-Owned Smartphones</h1>
+            <p>Discover high-quality, affordable smartphones across Bangladesh.</p>
+            <a href="#shop" class="btn">Explore Now</a>
+        </div>
+    </header>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <div class="container">
+            <h2>Featured Smartphones</h2>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search for smartphones...">
+            </div>
+            <div class="filters">
+                <select id="brandFilter">
+                    <option value="all">All Brands</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="Xiaomi">Xiaomi</option>
+                </select>
+                <select id="priceFilter">
+                    <option value="all">All Prices</option>
+                    <option value="low">Below ৳20,000</option>
+                    <option value="mid">৳20,000 - ৳50,000</option>
+                    <option value="high">Above ৳50,000</option>
+                </select>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="Image/13.jpg" alt="iPhone 12">
+                    <h3>iPhone 12 Pro Max</h3>
+                    <p>Price: ৳70,000</p>
+                    <p>Condition: Excellent</p>
+                    <p>Specifications: 128GB, 6GB RAM, Triple Camera</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="Image/13.jpg" alt="iPhone 12">
+                    <h3>iPhone 12 Pro Max</h3>
+                    <p>Price: ৳70,000</p>
+                    <p>Condition: Excellent</p>
+                    <p>Specifications: 128GB, 6GB RAM, Triple Camera</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="Image/13.jpg" alt="iPhone 12">
+                    <h3>iPhone 12 Pro Max</h3>
+                    <p>Price: ৳70,000</p>
+                    <p>Condition: Excellent</p>
+                    <p>Specifications: 128GB, 6GB RAM, Triple Camera</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="Image/13.jpg" alt="iPhone 12">
+                    <h3>iPhone 12 Pro Max</h3>
+                    <p>Price: ৳70,000</p>
+                    <p>Condition: Excellent</p>
+                    <p>Specifications: 128GB, 6GB RAM, Triple Camera</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="Image/13.jpg" alt="iPhone 12">
+                    <h3>iPhone 12 Pro Max</h3>
+                    <p>Price: ৳70,000</p>
+                    <p>Condition: Excellent</p>
+                    <p>Specifications: 128GB, 6GB RAM, Triple Camera</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200x200?text=Galaxy+S20" alt="Galaxy S20">
+                    <h3>Samsung Galaxy S20</h3>
+                    <p>Price: ৳55,000</p>
+                    <p>Condition: Very Good</p>
+                    <p>Specifications: 256GB, 8GB RAM, Quad Camera</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We provide pre-owned smartphones with guaranteed quality and reliability. Every device is thoroughly tested and certified before being listed.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/xzbowpjq" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Second-Hand Smartphone Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Top Banner */
+.top-banner {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the menu items to the right */
+    align-items: center;
+    width: 100%;
+}
+.navbar .logo {
+    margin-right: auto; /* Ensures logo stays on the left while menu items move to the right */
+}
+.navbar .menu-items {
+    display: flex;
+    gap: 20px;
+}
+.navbar .menu-items a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+.navbar .menu-items a:hover {
+    color: #ff3c78;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #ff3c78, #ff9b3c);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+}
+.hero .btn:hover {
+    background-color: #ff3c78;
+}
+
+/* Shop Section */
+.shop {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+.shop h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.product-card img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.contact form button {
+    padding: 10px;
+    background-color: #ff3c78;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+.contact form button:hover {
+    background-color: #ff9b3c;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
